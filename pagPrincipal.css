@@ -1,0 +1,129 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    overflow-x: hidden; /* Desabilita o scroll horizontal */
+}
+
+/*HEADER E NAV*/
+
+.linkPrincipal{
+    color: white;
+    text-decoration: none;   
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.678);
+    transition: transform 0.3s ease;
+    transform: scale(1);
+    display: inline-block; 
+  }
+  
+  .linkPrincipal:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+  }
+
+header{
+    background-image: linear-gradient(to bottom, rgb(0, 17, 255), rgb(50, 132, 226));
+    min-height: 170px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.textHeader{
+    color: #fff;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.678);
+}
+
+nav{
+    background-color: rgb(50, 132, 226);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.521);
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+nav > a{
+    padding: 10px;
+    margin-right: 10px;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    flex: 1; 
+}
+
+nav > a:hover{
+    background-color: rgba(58, 56, 56, 0.336);
+}
+
+
+main{
+    background-color: #fff;
+    min-width: 347px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1,h3{
+    text-indent: 5px;
+    color: black;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, rgb(61, 134, 218), transparent);
+    border-radius: 10px;
+}
+
+h3{
+padding: 5px;
+margin-top: 40px;
+}
+
+body{
+    background-color: rgba(58, 56, 56, 0.336);
+}
+
+main p{
+    padding: 5px;
+}
+
+li{
+    text-indent: 20px;
+    padding: 5px;
+}
+
+.imgCor{
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 0.8em;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

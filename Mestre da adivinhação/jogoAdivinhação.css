@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*HEADER*/
+
+.linkPrincipal{
+  color: white;
+  text-decoration: none;   
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  font-weight: normal;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.678);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  display: inline-block; 
+}
+
+.linkPrincipal:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
+}
+
+header{
+  background-image: linear-gradient(to bottom, rgb(0, 17, 255), rgb(50, 132, 226));
+  min-height: 190px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sinopseJogo{
+  color: #fff;
+  font-size: 1.1em;
+  max-width: 1000px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: auto;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.678);
+}
+
+nav{
+  background-color: rgb(50, 132, 226);
+  padding: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.521);
+  display: flex; 
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+}
+
+nav > a{
+  padding: 10px;
+  margin-right: 10px;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  flex: 1;
+}
+
+nav > a:hover{
+  background-color: rgba(58, 56, 56, 0.336);
+}
+
+/*MAIN*/
+
+.advCor{
+
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 580px; 
+}
+
+#colorDisplay {
+  font-size: 2em;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid black;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  border: 2px solid black;
+  cursor: pointer;
+  position: relative; 
+  transition: transform 0.2s ease; 
+  border-radius: 10px;
+}
+
+.square:hover {
+  transform: scale(1.1); 
+}
+
+.square .marks { /* Container para os ícones */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.square .wrong-mark,
+.square .correct-mark {
+  font-size: 3em;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden; 
+}
+
+.square .wrong-mark {
+  color: red;
+}
+
+.square .correct-mark {
+  color: green;
+}
+
+#message {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 20px;
+  color: green;
+  visibility: hidden; 
+  text-align: center;
+}
+
+#resetButton{
+  width: 120px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*FOOTER*/
+
+footer{
+  background-color: rgb(2, 2, 2);
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.8em;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 0px;
+}
