@@ -1,4 +1,4 @@
-#CHROMATIDE
+
 Mergulhe no Mundo das Cores: Explore, Crie e Desafie sua Percepção!
 
 Este site é o seu portal para um universo de possibilidades com cores! Abrimos um leque de ferramentas interativas que te convidam a explorar, experimentar e testar seus conhecimentos sobre o fascinante mundo das cores digitais.
