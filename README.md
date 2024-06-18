@@ -12,3 +12,5 @@ Liberar sua Criatividade com o Gerador de Paleta: Transforme qualquer imagem ins
 Testar seus Limites no Jogo de Adivinhação: Quão apurado é o seu olhar? Desafie sua percepção das cores e tente adivinhar o tom exato de um código RGB, colocando suas habilidades à prova em um jogo envolvente e divertido.
 
 Junte-se a nós e embarque em uma experiência única e colorida!
+
+<strong>Visite o site: <strong> <a href="https://chromatide.vercel.app">Chromaticode</a>
