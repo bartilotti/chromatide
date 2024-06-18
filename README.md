@@ -13,4 +13,4 @@ Testar seus Limites no Jogo de Adivinhação: Quão apurado é o seu olhar? Desa
 
 Junte-se a nós e embarque em uma experiência única e colorida!
 
-<strong>Visite o site: <strong> <a href="https://chromatide.vercel.app">Chromaticode</a>
+<strong>Visite o site: <strong> <a href="https://chromatide.vercel.app" target="_blank">Chromaticode</a>
